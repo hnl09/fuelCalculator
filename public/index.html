@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de consumo</title>
+</head>
+
+<body>
+    <h1>Calculadora de consumo de combustível</h1>
+    <p>Distância percorrida (Km):<input id="distance" type="number" min="150" max="1000000"></p>
+    <p>Combustível Consumido (L):<input id="fuel" type="number" min="10" max="10000000" step="1"></p>
+    <p>Custo por litro de combustível: R$ <input id="costper" type="number" min="6.69" max="10" step="0.01"
+            value="6.69"></p>
+    <button id="btn">Calcular</button>
+    <h2 id="consumption"></h2>
+    <script src="./script.js"></script>
+</body>
+
+</html>
